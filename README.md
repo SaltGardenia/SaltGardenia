@@ -4,16 +4,23 @@
 
 ## 语言
 
-[![My Skills](https://skillicons.dev/icons?i=py,c,cpp&theme=dark)](https://skillicons.dev)
-语言能力：Python、C/C++、MarkDown、LaTeX
+[![My Skills](https://skillicons.dev/icons?i=py,c,cpp,markdown,latex&theme=dark)](https://skillicons.dev)
 
-## 工具
-
-[![My Skills](https://skillicons.dev/icons?i=github,git,anaconda,pycharm,clion,vscode,cmake&theme=dark)](https://skillicons.dev)
+python、c、c++、markdown、latex
 
 ## 框架
 
 [![My Skills](https://skillicons.dev/icons?i=qt,pytorch&theme=dark)](https://skillicons.dev)
+
+qt、pytorch
+
+## 工具
+
+[![My Skills](https://skillicons.dev/icons?i=github,git,anaconda,pycharm,clion,vscode,cmake,obsidian&theme=dark)](https://skillicons.dev)
+
+githu、git、anaconda、pycharm、clion、vscode、cmake、obsidian
+
+
 
 <!--
 **SaltGardenia/SaltGardenia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
