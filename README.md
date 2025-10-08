@@ -1,25 +1,18 @@
 ## Hi there 👋
 
-# 简介 
-
-## 语言
+# Ability
 
 [![My Skills](https://skillicons.dev/icons?i=py,c,cpp,markdown,latex&theme=dark)](https://skillicons.dev)
 
 python、c、c++、markdown、latex
 
-## 框架
-
 [![My Skills](https://skillicons.dev/icons?i=qt,pytorch&theme=dark)](https://skillicons.dev)
 
 qt、pytorch
 
-## 工具
-
 [![My Skills](https://skillicons.dev/icons?i=github,git,anaconda,pycharm,clion,vscode,cmake,obsidian&theme=dark)](https://skillicons.dev)
 
-githu、git、anaconda、pycharm、clion、vscode、cmake、obsidian
-
+github、git、anaconda、pycharm、clion、vscode、cmake、obsidian
 
 
 <!--
