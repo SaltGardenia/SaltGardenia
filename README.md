@@ -4,15 +4,15 @@
 
 [![My Skills](https://skillicons.dev/icons?i=py,c,cpp,markdown,latex&theme=dark)](https://skillicons.dev)
 
-Language:python、c、c++、markdown、latex
+python、c、c++、markdown、latex
 
 [![My Skills](https://skillicons.dev/icons?i=qt,pytorch&theme=dark)](https://skillicons.dev)
 
-Framwork:qt、pytorch
+qt、pytorch
 
 [![My Skills](https://skillicons.dev/icons?i=github,git,anaconda,pycharm,clion,vscode,cmake,obsidian&theme=dark)](https://skillicons.dev)
 
-Tools:github、git、anaconda、pycharm、clion、vscode、cmake、obsidian
+github、git、anaconda、pycharm、clion、vscode、cmake、obsidian
 
 
 <!--
