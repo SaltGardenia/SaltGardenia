@@ -5,6 +5,7 @@
 ## 语言
 
 [![My Skills](https://skillicons.dev/icons?i=py,c,cpp&theme=dark)](https://skillicons.dev)
+语言能力：Python、C/C++、MarkDown、LaTeX
 
 ## 工具
 
