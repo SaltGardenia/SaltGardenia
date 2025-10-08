@@ -1,14 +1,19 @@
 ## Hi there 👋
+
 # 简介 
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=android,jetpackcompose,spring,kotlin&theme=light)
+## 语言
 
-![](./profile-3d-contrib/profile-green-animate.svg)
+[![My Skills](https://skillicons.dev/icons?i=py,c,cpp&theme=dark)](https://skillicons.dev)
 
-## 动态
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Chiu-xaH&show_icons=true&count_private=true&locale=cn&hide_title=true)
+## 工具
 
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Chiu-xaH&custom_title=贡献图)
+[![My Skills](https://skillicons.dev/icons?i=github,git,anaconda,pycharm,clion,vscode,cmake&theme=dark)](https://skillicons.dev)
+
+## 框架
+
+[![My Skills](https://skillicons.dev/icons?i=qt,pytorch&theme=dark)](https://skillicons.dev)
+
 <!--
 **SaltGardenia/SaltGardenia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
