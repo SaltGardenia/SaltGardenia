@@ -10,6 +10,10 @@ python、c、c++、markdown、latex
 
 qt、pytorch
 
+[![My Skills](https://skillicons.dev/icons?i=opencv&theme=dark)](https://skillicons.dev)
+
+opencv、numpy、pandas、matplotlib
+
 [![My Skills](https://skillicons.dev/icons?i=github,git,anaconda,pycharm,clion,vscode,cmake,obsidian&theme=dark)](https://skillicons.dev)
 
 github、git、anaconda、pycharm、clion、vscode、cmake、obsidian
