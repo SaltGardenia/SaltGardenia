@@ -14,7 +14,7 @@ Language: Python、C/C++、MarkDown、LaTeX.
 
 Framework: PyTorch、PyQt.
 
-Library: OpenCV、Numpy、Pandas、Matplotlib.
+Library: OpenCV、Numpy、Pandas、Matplotlib、scikit-learn.
 
 Tools: Anaconda、Git、CMake.
 
