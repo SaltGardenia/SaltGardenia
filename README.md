@@ -14,9 +14,9 @@ Language: Python、C/C++、MarkDown、LaTeX.
 
 Framework: PyTorch、PyQt.
 
-Library: OpenCV、Numpy、Pandas、Matplotlib、scikit-learn.
+Library: OpenCV、Numpy、Pandas、Matplotlib、Scikit-learn.
 
-Tools: Anaconda、Git、CMake.
+Tools: Conda、Git、CMake.
 
 # 🔭 I’m currently working on AGI and cv.
 <!--
