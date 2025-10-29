@@ -4,7 +4,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=py,c,cpp,markdown,latex&theme=dark)](https://skillicons.dev)
 
-[![My Skills](https://skillicons.dev/icons?i=qt,pytorch&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=qt,pytorch,tensorflow&theme=dark)](https://skillicons.dev)
 
 [![My Skills](https://skillicons.dev/icons?i=opencv&theme=dark)](https://skillicons.dev)
 
@@ -12,7 +12,7 @@
 
 Language: Python、C/C++、MarkDown、LaTeX.
 
-Framework: PyTorch、PyQt.
+Framework: PyQt、PyTorch、TensorFlow.
 
 Library: OpenCV、Numpy、Pandas、Matplotlib、Scikit-learn.
 
