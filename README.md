@@ -2,13 +2,13 @@
 
 # Ability:
 
-[![My Skills](https://skillicons.dev/icons?i=py,c,cpp,markdown,latex&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,c,cpp,markdown,latex&theme=light)](https://skillicons.dev)
 
-[![My Skills](https://skillicons.dev/icons?i=qt,pytorch,tensorflow&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=qt,pytorch,tensorflow&theme=light)](https://skillicons.dev)
 
-[![My Skills](https://skillicons.dev/icons?i=opencv&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=opencv&theme=light)](https://skillicons.dev)
 
-[![My Skills](https://skillicons.dev/icons?i=github,git,anaconda,pycharm,clion,vscode,cmake,obsidian&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=github,git,anaconda,pycharm,clion,vscode,cmake,obsidian&theme=light)](https://skillicons.dev)
 
 Language: Python、C/C++、MarkDown、LaTeX.
 
