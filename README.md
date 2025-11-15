@@ -1,7 +1,5 @@
 # Hi,welcome my world! 👋
 
-# Ability:
-
 [![My Skills](https://skillicons.dev/icons?i=github,git,anaconda,pycharm,clion,visualstudio,vscode,cmake,obsidian,py,c,cpp,markdown,latex,qt,pytorch,tensorflow,opencv&theme=light&perline=6)](https://skillicons.dev)
 
 Language: Python、C/C++、MarkDown、LaTeX.
@@ -11,19 +9,3 @@ Framework: PyQt、PyTorch、TensorFlow.
 Library: OpenCV、Numpy、Pandas、Matplotlib、Scikit-learn.
 
 Tools: Conda、Git、CMake.
-
-# 🔭 I’m currently working on AGI and cv.
-<!--
-**SaltGardenia/SaltGardenia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
--  ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
