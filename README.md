@@ -4,3 +4,5 @@
 ---
 
 Python Developer specializing in computer vision within the field of artificial intelligence.
+
+Bachelor's Degree in Computer Science：HFUT(Hefei University of Technology),IST(Intelligent Science and Technology),2024-2028
