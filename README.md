@@ -23,5 +23,5 @@
 ---
 
 ### 📊 GitHub Stats
-![SaltGardenia's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SaltGardenia&show_icons=true&theme=tokyonight&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SaltGardenia&layout=compact&theme=tokyonight)
+![SaltGardenia's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SaltGardenia&show_icons=true&theme=transparent&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SaltGardenia&layout=compact&theme=transparent)
