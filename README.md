@@ -16,9 +16,9 @@
 ---
 
 ### 🚀 Featured Projects
-#### [Image Classification Tool](https://github.com/liming/image-classification)
-- 📝 A CNN-based tool for fast image classification and object detection.
-- 🛠️ Tech: Python + PyTorch + OpenCV
+#### [Intelligent Cockpit System](https://github.com/SaltGardenia/Intelligent-Cockpit-System)
+- 📝 
+- 🛠️ Tech: Python
 
 ---
 
