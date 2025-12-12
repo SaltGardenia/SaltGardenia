@@ -17,8 +17,8 @@
 
 ### 🚀 Featured Projects
 #### [Intelligent Cockpit System](https://github.com/SaltGardenia/Intelligent-Cockpit-System)
-- 📝 
-- 🛠️ Tech: Python
+- 📝 智能座舱系统
+- 🛠️ Tech: Python、Qt、YOLO 
 
 ---
 
