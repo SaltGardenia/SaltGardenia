@@ -1,8 +1,7 @@
 # Hi,welcome my world! 👋
 
-### 📚 About Me  
-- 📍 Based in ZhuHai
-- 💻 Python Developer | AI & Computer Vision Engineer
+### 🥰 About Me  
+- 🤔 Python Developer | AI & Computer Vision Engineer
 - 🎓 Bachelor's Degree in Intelligent Science and Technology @ Hefei University of Technology  （2024-2028）
 - 📫 Email: icepaper135@gmail.com
 
