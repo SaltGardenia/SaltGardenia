@@ -4,7 +4,7 @@
 - 📍 Based in ZhuHai
 - 💻 Python Developer | AI & Computer Vision Engineer
 - 🎓 Bachelor's Degree in Intelligent Science and Technology @ Hefei University of Technology  （2024-2028）
-- 📫 Email: 1591827747@qq.com
+- 📫 Email: icepaper135@gmail.com
 
 [![My Skills](https://skillicons.dev/icons?i=py,pycharm,github,git,c,cpp,visualstudio,vscode,clion,cmake,markdown,obsidian,latex,anaconda,opencv,qt,pytorch,tensorflow,mysql,docker&theme=light&perline=10)](https://skillicons.dev)
 
