@@ -13,7 +13,7 @@
 - Development language(C/C++、Python)、Development environment(Windows、Mac、Ubuntu).
 - ML&DL(Scikit-learn、TensorFlow、PyTorch、OpenCV).
 - Data processing(NumPy、Pandas、Matplotlib、labelImg、MySQL).
-- Development tools(Git、Github、Hugging Face、Pip、Conda、uv、Docker、PyQt、Fast API).
+- Development tools(Git、Github、Hugging Face、Kaggle、Pip、Conda、uv、Docker、PyQt、Fast API).
 
 [![My Skills](https://skillicons.dev/icons?i=py,pycharm,github,git,c,cpp,visualstudio,vscode,clion,cmake,markdown,obsidian,latex,anaconda,opencv,qt,pytorch,tensorflow,mysql,docker&theme=light&perline=10)](https://skillicons.dev)
 
