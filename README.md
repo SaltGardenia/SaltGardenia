@@ -29,7 +29,7 @@
 
 ---
 
-### 技能证书:
+### Skill Certificates:
 
 - CET4.
 ---
