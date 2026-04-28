@@ -14,13 +14,6 @@
 
 ---
 
-### 🚀 Featured Projects
-#### [Intelligent Cockpit System](https://github.com/SaltGardenia/Intelligent-Cockpit-System)
-- 📝 智能座舱系统
-- 🛠️ Tech: Python、Qt、YOLO 
-
----
-
 ### 📊 GitHub Stats
 ![SaltGardenia's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SaltGardenia&show_icons=true&theme=transparent&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SaltGardenia&layout=compact&theme=transparent)
