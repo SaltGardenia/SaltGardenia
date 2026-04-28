@@ -6,26 +6,32 @@
 - 💌 Email: icepaper135@gmail.com
 - 📍 ORCID:0009-0005-3281-2104
 
-### 工程能力：
+---
 
-- 开发语言(C/C++、Python)、开发环境(Windows、Mac、Ubuntu)。
-- 机器学习&深度学习(Scikit-learn、TensorFlow、PyTorch、OpenCV)。
-- 数据处理(NumPy、Pandas、Matplotlib、labelImg、MySQL)。
-- 开发工具(Git、Github、Hugging Face、Pip、Conda、uv、Docker、PyQt、Fast API)。
+### Engineering capabilities:
+
+- Development language(C/C++、Python)、Development environment(Windows、Mac、Ubuntu).
+- ML&DL(Scikit-learn、TensorFlow、PyTorch、OpenCV)。
+- Data processing(NumPy、Pandas、Matplotlib、labelImg、MySQL).
+- Development tools(Git、Github、Hugging Face、Pip、Conda、uv、Docker、PyQt、Fast API).
 
 [![My Skills](https://skillicons.dev/icons?i=py,pycharm,github,git,c,cpp,visualstudio,vscode,clion,cmake,markdown,obsidian,latex,anaconda,opencv,qt,pytorch,tensorflow,mysql,docker&theme=light&perline=10)](https://skillicons.dev)
 
-### 科研能力：
+---
 
-- 文献管理(Zotero)、论文撰写(Overleaf、TexStudio)、科研绘图(Illustrator、Photoshop)。
-- 文献阅读量100+、顶刊顶会复现量2+。
+### Scientific Research Capabilities:
 
-### 技能证书：
+- Literature management(Zotero)、Paper writing(Overleaf、TexStudio)、Scientific drawing(Illustrator、Photoshop).
+- Over 100 pieces of literature read, with 2+ reproductions of top journals and conferences.
 
-- 普通话二级甲等、CET4。
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)  ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)  ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)  ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)  ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)  ![YOLO](https://img.shields.io/badge/YOLO-000000?style=flat-square&logo=yolo&logoColor=white)  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
+---
+
+### 技能证书:
+
+- CET4.
 ---
 
 ### 📊 GitHub Stats
