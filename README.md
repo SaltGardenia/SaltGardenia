@@ -11,7 +11,7 @@
 ### Engineering capabilities:
 
 - Development language(C/C++、Python)、Development environment(Windows、Mac、Ubuntu).
-- ML&DL(Scikit-learn、TensorFlow、PyTorch、OpenCV)。
+- ML&DL(Scikit-learn、TensorFlow、PyTorch、OpenCV).
 - Data processing(NumPy、Pandas、Matplotlib、labelImg、MySQL).
 - Development tools(Git、Github、Hugging Face、Pip、Conda、uv、Docker、PyQt、Fast API).
 
