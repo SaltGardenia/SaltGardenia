@@ -8,7 +8,7 @@
 
 ---
 
-### Engineering capabilities:
+### Engineering Capabilities:
 
 - Development language(C/C++、Python)、Development environment(Windows、Mac、Ubuntu).
 - ML&DL(Scikit-learn、TensorFlow、PyTorch、OpenCV).
