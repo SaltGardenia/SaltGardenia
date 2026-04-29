@@ -4,7 +4,6 @@
 
 - 🎓 Bachelor's Degree in Intelligent Science and Technology @ Hefei University of Technology
 - 💌 Email: icepaper135@gmail.com
-- 📍 ORCID:0009-0005-3281-2104
 
 ---
 
