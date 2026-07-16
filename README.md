@@ -78,4 +78,10 @@
 
 ---
 
+<p align="center">
+  <a href="https://github.com/SaltGardenia/SaltGardenia">
+    <img src="https://img.shields.io/badge/status-updating-brightgreen.svg" alt="Profile status: updating" />
+  </a>
+</p>
+
 <sub>Designed as a crystalline bloom — the gardenia that grows in salt.</sub>
