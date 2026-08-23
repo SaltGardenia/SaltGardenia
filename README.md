@@ -23,14 +23,14 @@
 ## 🛠️ Skills & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,tensorflow,linux,latex,git,docker,github,vscode,anaconda&perline=9&theme=light" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,tensorflow,linux,latex,git,docker,vscode,anaconda&perline=10&theme=light" alt="skills" />
 </div>
 
 ## 📊 Contribution Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SaltGardenia&theme=default&show_icons=true&hide_border" alt="github stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaltGardenia&theme=default&layout=compact&hide_border" alt="top languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SaltGardenia&theme=default" alt="github stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SaltGardenia&theme=default" alt="top languages" />
 </div>
 
 <div align="center">
