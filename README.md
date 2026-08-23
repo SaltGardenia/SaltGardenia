@@ -23,7 +23,7 @@
 ## 🛠️ Skills & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,cuda,pytorch,tensorflow,linux,latex,git,docker,github,vscode,anaconda&perline=9&theme=light" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,tensorflow,linux,latex,git,docker,github,vscode,anaconda&perline=9&theme=light" alt="skills" />
 </div>
 
 ## 📊 Contribution Stats
