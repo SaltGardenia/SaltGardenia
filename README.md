@@ -1,11 +1,11 @@
 ### Welcome To My [Personal Homepage](https://saltgardenia.github.io/)
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:06B6D4&height=180&section=header&text=SaltGardenia&fontSize=42&fontAlignY=38&animation=fadeIn&fontColor=white&desc=3D%20Gaussian%20Splatting%20%7C%20Scene%20Reconstruction%20%7C%20Multimodal%20Learning&descAlignY=62&descSize=16" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:06B6D4&height=180&section=header&text=SaltGardenia&fontSize=42&fontAlignY=38&animation=fadeIn&fontColor=white&desc=3D%20Gaussian%20Splatting%20%7C%20Scene%20Reconstruction&descAlignY=62&descSize=16" alt="banner" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=A78BFA&center=true&vCenter=true&width=620&lines=3D+Gaussian+Splatting+%26+3D+Scene+Reconstruction;Sparse+Vision+Transformers+%26+Attention;Multimodal+Representation+Learning;AI+Researcher+%7C+Open+Source+Enthusiast" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=A78BFA&center=true&vCenter=true&width=620&lines=3D+Gaussian+Splatting+%26+3D+Scene+Reconstruction;Sparse+Vision+Transformers+%26+Attention;AI+Researcher+%7C+Open+Source+Enthusiast" alt="typing" />
 </div>
 
 <div align="center">
@@ -23,7 +23,6 @@
 
 - **3D Gaussian Splatting** & 3D scene reconstruction
 - **Sparse Vision Transformers** & sparse attention
-- **Multimodal representation learning**
 
 ## 🛠️ Skills & Tools
 
@@ -43,12 +42,6 @@
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/SaltGardenia/SaltGardenia/output/github-contribution-grid-snake.svg" alt="snake animation" />
-</div>
-
-## 🌿 3D Contribution Graph
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution chart" />
 </div>
 
 <div align="center">
