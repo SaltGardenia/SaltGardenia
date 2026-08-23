@@ -1,5 +1,3 @@
-### Welcome To My [Personal Homepage](https://saltgardenia.github.io/)
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:06B6D4&height=180&section=header&text=SaltGardenia&fontSize=42&fontAlignY=38&animation=fadeIn&fontColor=white&desc=3D%20Gaussian%20Splatting%20%7C%20Scene%20Reconstruction&descAlignY=62&descSize=16" alt="banner" />
 </div>
@@ -33,12 +31,9 @@
 ## 📊 Contribution Stats
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SaltGardenia&theme=default" alt="profile details" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SaltGardenia&theme=default" alt="repos per language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SaltGardenia&theme=default" alt="most commit language" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SaltGardenia&theme=default&show_icons=true&hide_border" alt="github stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaltGardenia&theme=default&layout=compact&hide_border" alt="top languages" />
 </div>
-
-## 🐍 Snake Animation
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/SaltGardenia/SaltGardenia/output/github-contribution-grid-snake.svg" alt="snake animation" />
