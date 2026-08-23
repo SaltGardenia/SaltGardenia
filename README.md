@@ -7,9 +7,7 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/SaltGardenia"><img src="https://img.shields.io/github/follow/SaltGardenia?label=Follow&logo=github&style=for-the-badge&color=7C3AED" alt="github follow" /></a>
   <a href="https://saltgardenia.github.io/"><img src="https://img.shields.io/badge/Homepage-saltgardenia.github.io-06B6D4?style=for-the-badge&logo=githubpages&logoColor=white" alt="homepage" /></a>
-  <img src="https://komarev.com/ghpvc/?username=SaltGardenia&label=Profile%20Views&color=7C3AED&style=for-the-badge" alt="profile views" />
   <!-- 把下面的占位符替换为你自己的链接，不需要的可直接删除整行 -->
   <!-- <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-YOUR_EMAIL-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a> -->
   <!-- <a href="https://orcid.org/YOUR_ORCID"><img src="https://img.shields.io/badge/ORCID-YOUR_ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="orcid" /></a> -->
