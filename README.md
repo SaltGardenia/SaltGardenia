@@ -34,15 +34,15 @@
 ## 📊 Contribution Stats
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SaltGardenia&theme=tokyonight" alt="profile details" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SaltGardenia&theme=tokyonight" alt="repos per language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SaltGardenia&theme=tokyonight" alt="most commit language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SaltGardenia&theme=default" alt="profile details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SaltGardenia&theme=default" alt="repos per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SaltGardenia&theme=default" alt="most commit language" />
 </div>
 
 ## 🐍 Snake Animation
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SaltGardenia/SaltGardenia/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/SaltGardenia/SaltGardenia/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
 
 ## 🌿 3D Contribution Graph
