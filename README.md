@@ -29,9 +29,10 @@
 ## 📊 Contribution Stats
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SaltGardenia&theme=default" alt="profile details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SaltGardenia&theme=default" alt="stats" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SaltGardenia&theme=default" alt="repos per language" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SaltGardenia&theme=default" alt="most commit language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SaltGardenia&theme=default" alt="profile details" />
 </div>
 
 <div align="center">
