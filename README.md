@@ -24,14 +24,19 @@
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,tensorflow,linux,latex,git,docker,vscode,anaconda&perline=10&theme=light" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=opencv,matlab,blender,c,rust,bash,vim,cmake,ubuntu,javascript&perline=10&theme=light" alt="skills" />
 </div>
 
 ## 📊 Contribution Stats
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SaltGardenia&theme=default" alt="stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SaltGardenia&theme=default" alt="repos per language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SaltGardenia&theme=default" alt="most commit language" />
+  <table>
+    <tr>
+      <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SaltGardenia&theme=default" alt="stats" /></td>
+      <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SaltGardenia&theme=default" alt="repos per language" /></td>
+      <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SaltGardenia&theme=default" alt="most commit language" /></td>
+    </tr>
+  </table>
 </div>
 
 <div align="center">
