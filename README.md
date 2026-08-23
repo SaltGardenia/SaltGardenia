@@ -43,6 +43,3 @@
   <img src="https://raw.githubusercontent.com/SaltGardenia/SaltGardenia/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:4E7FD4,100:06B6D4&height=120&section=footer&animation=twinkling" alt="footer" />
-</div>
