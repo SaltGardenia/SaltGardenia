@@ -11,42 +11,45 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Download cards (once per day, with retry)
-        env:
-          USER: SaltGardenia
+      - name: Generate default theme
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          AUTO_PUSH: false
+          THEME: default
+
+      - name: Stage default theme
         run: |
-          mkdir -p "$RUNNER_TEMP/stats"
-          BASE="https://github-profile-summary-cards.vercel.app/api/cards"
-          fetch_card () {
-            local url="$1"; local out="$2"; local tries=6; local i code
-            for i in $(seq 1 $tries); do
-              code=$(curl -s -L -w "%{http_code}" -o "$out" "$url")
-              if [ "$code" = "200" ] && ! grep -qi "ERROR" "$out"; then
-                echo "OK $out"; return 0
-              fi
-              echo "attempt $i for $out failed (http $code), retrying in 45s..."
-              sleep 45
-            done
-            echo "FAILED $out"
-            return 1
-          }
-          fetch_card "$BASE/stats?username=$USER&theme=default"            "$RUNNER_TEMP/stats/stats.svg"
-          fetch_card "$BASE/stats?username=$USER&theme=github_dark"        "$RUNNER_TEMP/stats/stats-dark.svg"
-          fetch_card "$BASE/repos-per-language?username=$USER&theme=default"     "$RUNNER_TEMP/stats/repos-per-language.svg"
-          fetch_card "$BASE/repos-per-language?username=$USER&theme=github_dark" "$RUNNER_TEMP/stats/repos-per-language-dark.svg"
-          fetch_card "$BASE/most-commit-language?username=$USER&theme=default"     "$RUNNER_TEMP/stats/most-commit-language.svg"
-          fetch_card "$BASE/most-commit-language?username=$USER&theme=github_dark" "$RUNNER_TEMP/stats/most-commit-language-dark.svg"
+          mkdir -p staging
+          cp -f profile-summary-card-output/default/*.svg staging/ || true
+
+      - name: Generate github_dark theme
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          AUTO_PUSH: false
+          THEME: github_dark
+
+      - name: Stage dark theme (suffix -dark)
+        run: |
+          mkdir -p staging
+          for f in profile-summary-card-output/github_dark/*.svg; do
+            base=$(basename "$f" .svg)
+            cp -f "$f" "staging/${base}-dark.svg"
+          done
 
       - name: Publish to output branch
         run: |
           git fetch origin output
           git checkout -B output origin/output
           mkdir -p stats
-          cp -f "$RUNNER_TEMP/stats/"*.svg stats/ || true
+          cp -f staging/*.svg stats/ || true
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stats
