@@ -1,0 +1,58 @@
+name: Update Contribution Stats Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Download cards (once per day, with retry)
+        env:
+          USER: SaltGardenia
+        run: |
+          mkdir -p "$RUNNER_TEMP/stats"
+          BASE="https://github-profile-summary-cards.vercel.app/api/cards"
+          fetch_card () {
+            local url="$1"; local out="$2"; local tries=6; local i code
+            for i in $(seq 1 $tries); do
+              code=$(curl -s -L -w "%{http_code}" -o "$out" "$url")
+              if [ "$code" = "200" ] && ! grep -qi "ERROR" "$out"; then
+                echo "OK $out"; return 0
+              fi
+              echo "attempt $i for $out failed (http $code), retrying in 45s..."
+              sleep 45
+            done
+            echo "FAILED $out"
+            return 1
+          }
+          fetch_card "$BASE/stats?username=$USER&theme=default"            "$RUNNER_TEMP/stats/stats.svg"
+          fetch_card "$BASE/stats?username=$USER&theme=github_dark"        "$RUNNER_TEMP/stats/stats-dark.svg"
+          fetch_card "$BASE/repos-per-language?username=$USER&theme=default"     "$RUNNER_TEMP/stats/repos-per-language.svg"
+          fetch_card "$BASE/repos-per-language?username=$USER&theme=github_dark" "$RUNNER_TEMP/stats/repos-per-language-dark.svg"
+          fetch_card "$BASE/most-commit-language?username=$USER&theme=default"     "$RUNNER_TEMP/stats/most-commit-language.svg"
+          fetch_card "$BASE/most-commit-language?username=$USER&theme=github_dark" "$RUNNER_TEMP/stats/most-commit-language-dark.svg"
+
+      - name: Publish to output branch
+        run: |
+          git fetch origin output
+          git checkout -B output origin/output
+          mkdir -p stats
+          cp -f "$RUNNER_TEMP/stats/"*.svg stats/ || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats
+          if git diff --cached --quiet; then
+            echo "no changes to publish"
+          else
+            git commit -m "chore: update contribution stats cards"
+            git push origin output
+          fi
