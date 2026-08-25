@@ -1,0 +1,99 @@
+name: Update Contribution Stats Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      attempt:
+        description: "internal retry counter"
+        required: false
+        default: "1"
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Generate default theme
+        id: gen-default
+        continue-on-error: true
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          AUTO_PUSH: false
+          THEME: default
+
+      - name: Stage default theme
+        if: ${{ steps.gen-default.outcome == 'success' }}
+        run: |
+          mkdir -p staging
+          cp -f profile-summary-card-output/default/*.svg staging/ || true
+
+      - name: Generate github_dark theme
+        id: gen-dark
+        continue-on-error: true
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          AUTO_PUSH: false
+          THEME: github_dark
+
+      - name: Stage dark theme
+        if: ${{ steps.gen-dark.outcome == 'success' }}
+        run: |
+          mkdir -p staging
+          for f in profile-summary-card-output/github_dark/*.svg; do
+            base=$(basename "$f" .svg)
+            cp -f "$f" "staging/${base}-dark.svg"
+          done
+
+      - name: Validate generated cards (must be complete and error-free)
+        id: validate
+        run: |
+          ok=1
+          for n in stats repos-per-language most-commit-language; do
+            for v in "" "-dark"; do
+              f="staging/${n}${v}.svg"
+              if [ ! -f "$f" ] || grep -qi "ERROR" "$f"; then ok=0; fi
+            done
+          done
+          echo "valid=$ok" >> "$GITHUB_OUTPUT"
+
+      - name: Publish to contribution-stats branch (preserves old data when invalid)
+        if: ${{ steps.validate.outputs.valid == '1' }}
+        run: |
+          git fetch origin contribution-stats || true
+          if git show-ref --verify --quiet refs/remotes/origin/contribution-stats; then
+            git checkout -B contribution-stats origin/contribution-stats
+          else
+            git checkout --orphan contribution-stats
+          fi
+          mkdir -p stats
+          cp -f staging/*.svg stats/ || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: update contribution stats cards"
+            git push origin contribution-stats
+          fi
+
+      - name: Reschedule retry if generation failed
+        if: ${{ steps.validate.outputs.valid != '1' && inputs.attempt < 30 }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "generation incomplete/failed (attempt ${{ inputs.attempt }}); retrying in 10 min"
+          sleep 600
+          gh workflow run "Update Contribution Stats Cards" -f attempt=$(( ${{ inputs.attempt }} + 1 ))
