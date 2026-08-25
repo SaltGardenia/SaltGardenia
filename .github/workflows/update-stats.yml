@@ -68,11 +68,15 @@ jobs:
           done
           echo "valid=$ok" >> "$GITHUB_OUTPUT"
 
-      - name: Publish to output branch (preserves old data when invalid)
+      - name: Publish to contribution-stats branch (preserves old data when invalid)
         if: ${{ steps.validate.outputs.valid == '1' }}
         run: |
-          git fetch origin output
-          git checkout -B output origin/output
+          git fetch origin contribution-stats || true
+          if git show-ref --verify --quiet refs/remotes/origin/contribution-stats; then
+            git checkout -B contribution-stats origin/contribution-stats
+          else
+            git checkout --orphan contribution-stats
+          fi
           mkdir -p stats
           cp -f staging/*.svg stats/ || true
           git config user.name "github-actions[bot]"
@@ -82,7 +86,7 @@ jobs:
             echo "no changes"
           else
             git commit -m "chore: update contribution stats cards"
-            git push origin output
+            git push origin contribution-stats
           fi
 
       - name: Reschedule retry if generation failed
