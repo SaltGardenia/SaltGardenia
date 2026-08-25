@@ -23,7 +23,7 @@
 ## 🛠️ Skills & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,r,html,css,javascript,pytorch,opencv,anaconda,qt,react,nodejs,npm,clion,pycharm,vscode,visualstudio,markdown,latex,cmake,docker,githubactions,git,github,linux,ubuntu,windows,bash,gmail&perline=10&theme=light" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,r,html,css,javascript,linux,ubuntu,windows,qt,react,nodejs,npm,clion,pycharm,vscode,visualstudio,markdown,latex,pytorch,opencv,anaconda,scikitlearn,cmake,docker,githubactions,git,github,bash&perline=10&theme=light" alt="skills" />
 </div>
 
 ## 📊 Contribution Stats
