@@ -36,7 +36,17 @@ jobs:
         if: ${{ steps.gen-default.outcome == 'success' }}
         run: |
           mkdir -p staging
-          cp -f profile-summary-card-output/default/*.svg staging/ || true
+          for f in profile-summary-card-output/default/*.svg; do
+            base=$(basename "$f" .svg)
+            # 上游 action 自 2026-08 起给输出文件加排序前缀（1-repos-per-language、
+            # 2-most-commit-language、3-stats），这里映射回原名以保持发布格式不变
+            case "$base" in
+              3-stats) base="stats" ;;
+              1-repos-per-language) base="repos-per-language" ;;
+              2-most-commit-language) base="most-commit-language" ;;
+            esac
+            cp -f "$f" "staging/${base}.svg"
+          done
 
       - name: Generate github_dark theme
         id: gen-dark
@@ -53,6 +63,11 @@ jobs:
           mkdir -p staging
           for f in profile-summary-card-output/github_dark/*.svg; do
             base=$(basename "$f" .svg)
+            case "$base" in
+              3-stats) base="stats" ;;
+              1-repos-per-language) base="repos-per-language" ;;
+              2-most-commit-language) base="most-commit-language" ;;
+            esac
             cp -f "$f" "staging/${base}-dark.svg"
           done
 
